@@ -5,8 +5,24 @@
   </head>
   <body>
   <script>
-    const url = 'https://gist.githubusercontent.com/dralmadani/218b6f2c3cf64811a4241a30b1a6d35b/raw/CoronavirusDailyData.csv';
-    console.log(fatch(url));
+    
+    const fatchText = asyc (url) => {
+      const response = await fatch(url);
+      return await response.text();
+    };
+    const csvUrl = 'https://gist.githubusercontent.com/dralmadani/c04f95746e2f36b040d3d764ab7b9c62/raw/LargestCitiesPopulation2020USA.csv';
+    
+    fatchText(csvUrl).then(text => {
+      console.log(text);
+    });
+
+
+    
+//    fatch(url).then(response => {
+  //    response.text().then(text => {
+    //        console.log(text);
+      //      });
+        //  });
   </script>
   </body>
 <html>
