@@ -1,6 +1,5 @@
 # Data Visualization Project
-Data visualization project proposal
-
+Largest Cities by population in 2020
 ----
 ## Data
 
@@ -160,36 +159,6 @@ Tring to show city name and population also, places in the USA map
 
 </tr>
 
-<tr>
-<td>1</td>
-<td>Update the menu code</td>
-<td>28-10-2020</td>
- <td> </td>
-
-</tr>
-
-<tr>
-<td>1</td>
-<td>Adding X title and Y title for the chart</td>
-<td>4-11-2020</td>
- <td> </td>
-</tr>
-
-<tr>
-<td>3</td>
-<td>Making some movement on my visualization</td>
-<td>4-11-2020</td>
- <td> </td>
-
-</tr>
-
-<tr>
-<td>4</td>
-<td>Complete the project and removing all comments code and checking spelling or grammaticl errors</td>
-<td>11-11-2020</td>
- <td> </td>
-
-</tr>
  
 </tbody>
 </table>
